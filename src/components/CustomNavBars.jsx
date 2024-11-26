@@ -2,11 +2,11 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-const CustomNavbar = () => {
+const CustomNavBars = () => {
   return (
-    <Navbar collapseOneSelect expand="lg " className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home"> Balde React</Navbar.Brand>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -30,4 +30,4 @@ const CustomNavbar = () => {
   );
 };
 
-export default CustomNavbar;
+export default CustomNavBars;
